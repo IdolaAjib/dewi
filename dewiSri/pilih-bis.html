@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+  <body class="bg-[#282828]">
+    <nav class="bg-[#282828] p-[15px] fixed z-50 bottom-0 left-0 right-0">
+      <ul class="flex gap-3 items-center justify-between">
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div
+              class="w-[30px] h-[30px] bg-[#FCC46B] rounded-full flex justify-center items-center"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <p class="text-[#FCC46B] text-xs font-bold">Cari Tiket</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div
+              class="w-[30px] h-[30px] rounded-full flex justify-center items-center"
+            >
+              <img src="/assets/icon/iconamoon_discount-thin.png" alt="" />
+            </div>
+            <p class="text-[#fff] text-xs">Diskon</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div
+              class="w-[30px] h-[30px] rounded-full flex justify-center items-center"
+            >
+              <img src="/assets/icon/carbon_ticket.png" alt="" />
+            </div>
+            <p class="text-[#fff] text-xs">Ticket Saya</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div
+              class="w-[30px] h-[30px] rounded-full flex justify-center items-center"
+            >
+              <img
+                src="/assets/icon/fluent_task-list-square-20-regular.png"
+                alt=""
+              />
+            </div>
+            <p class="text-[#fff] text-xs">Transaksi</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div
+              class="w-[30px] h-[30px] rounded-full flex justify-center items-center"
+            >
+              <img src="/assets/icon/heroicons-outline_menu-alt-3.png" alt="" />
+            </div>
+            <p class="text-[#fff] text-xs">Ticket Saya</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class="fixed top-0 left-0 right-0">
+      <div class="px-5 py-[18px] bg-[#FCC46B]">
+        <ul class="flex items-center justify-between">
+          <li>
+            <a href="" class="">
+              <div
+                class="bg-white rounded-full p-2 w-[30px] h-[30px] flex items-center justify-center"
+              >
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+            </a>
+          </li>
+          <li>
+            <div class="text-center">
+              <div
+                class="uppercase flex items-center justify-center gap-3 font-bold"
+              >
+                <div>Tegal</div>
+                <span><i class="fas fa-angle-right"></i></span>
+                <div>Jakarta</div>
+              </div>
+              <div class="flex items-center justify-center gap-2 text-white">
+                <div>Sen, 16 Okt 2023</div>
+                <span><i class="fas fa-circle fa-xs"></i></span>
+                <div>1 Penumpang</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="" class="">
+              <div
+                class="bg-white rounded-full p-2 w-[30px] h-[30px] flex items-center justify-center"
+              >
+                <i class="fa-solid fa-sliders"></i>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="pt-28 px-[20px]">
+      <section>
+        <div class="flex flex-col gap-5 pb-20">
+            <div class="">
+              <div class="bg-[#343434] rounded-lg p-[20px]">
+                <h4 class="text-white">Bus Kelas AC Seat 2-2</h4>
+                <div class="flex items-center justify-between">
+                  <div class="flex gap-2">
+                    <div class="flex flex-col items-center justify-between gap-2">
+                      <img src="/assets/icon/ri_map-pin-4-line.png" alt="" />
+                      <div class="border-r border-dashed h-6 w-px"></div>
+                      <img src="/assets/icon/ri_map-pin-2-line.png" alt="" />
+                    </div>
+                    <div class="flex flex-col  justify-between">
+                        <div class="flex gap-1 text-white">
+                          <div class="date font-bold text-xs">21:45</div>
+                          <div class="location uppercase text-xs">Tegal</div>
+                        </div>
+            
+                        <div class="flex items-center justify-center gap-2 text-white">
+                            <div>07m</div>
+                            <div>28m</div>
+                            <span class="px-2 py-1 rounded-full bg-[#628973] text-white text-xs">+1 hari</span>
+                        </div>
+                        <div class="flex gap-1 text-white">
+                            <div class="date font-bold text-xs">21:45</div>
+                            <div class="location uppercase text-xs">Jakarta</div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-between gap-2 justify-between">
+                    <div>
+                        <p class="text-[#888]">Harga Tiket</p>
+                        <h5 class="text-[#FCC46B] font-bold text-[15px]">110,000<span class="text-white font-light">/pax</span></h5>
+                    </div>
+                    <button class="bg-[#555] px-2 py-1 rounded-lg text-white">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="bg-[#343434] rounded-lg p-[20px]">
+                <h4 class="text-white">Bus Kelas AC Seat 2-2</h4>
+                <div class="flex items-center justify-between">
+                  <div class="flex gap-2">
+                    <div class="flex flex-col items-center justify-between gap-2">
+                      <img src="/assets/icon/ri_map-pin-4-line.png" alt="" />
+                      <div class="border-r border-dashed h-6 w-px"></div>
+                      <img src="/assets/icon/ri_map-pin-2-line.png" alt="" />
+                    </div>
+                    <div class="flex flex-col  justify-between">
+                        <div class="flex gap-1 text-white">
+                          <div class="date font-bold text-xs">21:45</div>
+                          <div class="location uppercase text-xs">Tegal</div>
+                        </div>
+            
+                        <div class="flex items-center justify-center gap-2 text-white">
+                            <div>07m</div>
+                            <div>28m</div>
+                            <span class="px-2 py-1 rounded-full bg-[#628973] text-white text-xs">+1 hari</span>
+                        </div>
+                        <div class="flex gap-1 text-white">
+                            <div class="date font-bold text-xs">21:45</div>
+                            <div class="location uppercase text-xs">Jakarta</div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-between gap-2 justify-between">
+                    <div>
+                        <p class="text-[#888]">Harga Tiket</p>
+                        <h5 class="text-[#FCC46B] font-bold text-[15px]">110,000<span class="text-white font-light">/pax</span></h5>
+                    </div>
+                    <button class="bg-[#555] px-2 py-1 rounded-lg text-white">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="bg-[#343434] rounded-lg p-[20px]">
+                <h4 class="text-white">Bus Kelas AC Seat 2-2</h4>
+                <div class="flex items-center justify-between">
+                  <div class="flex gap-2">
+                    <div class="flex flex-col items-center justify-between gap-2">
+                      <img src="/assets/icon/ri_map-pin-4-line.png" alt="" />
+                      <div class="border-r border-dashed h-6 w-px"></div>
+                      <img src="/assets/icon/ri_map-pin-2-line.png" alt="" />
+                    </div>
+                    <div class="flex flex-col  justify-between">
+                        <div class="flex gap-1 text-white">
+                          <div class="date font-bold text-xs">21:45</div>
+                          <div class="location uppercase text-xs">Tegal</div>
+                        </div>
+            
+                        <div class="flex items-center justify-center gap-2 text-white">
+                            <div>07m</div>
+                            <div>28m</div>
+                            <span class="px-2 py-1 rounded-full bg-[#628973] text-white text-xs">+1 hari</span>
+                        </div>
+                        <div class="flex gap-1 text-white">
+                            <div class="date font-bold text-xs">21:45</div>
+                            <div class="location uppercase text-xs">Jakarta</div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-between gap-2 justify-between">
+                    <div>
+                        <p class="text-[#888]">Harga Tiket</p>
+                        <h5 class="text-[#FCC46B] font-bold text-[15px]">110,000<span class="text-white font-light">/pax</span></h5>
+                    </div>
+                    <button class="bg-[#555] px-2 py-1 rounded-lg text-white">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="bg-[#343434] rounded-lg p-[20px]">
+                <h4 class="text-white">Bus Kelas AC Seat 2-2</h4>
+                <div class="flex items-center justify-between">
+                  <div class="flex gap-2">
+                    <div class="flex flex-col items-center justify-between gap-2">
+                      <img src="/assets/icon/ri_map-pin-4-line.png" alt="" />
+                      <div class="border-r border-dashed h-6 w-px"></div>
+                      <img src="/assets/icon/ri_map-pin-2-line.png" alt="" />
+                    </div>
+                    <div class="flex flex-col  justify-between">
+                        <div class="flex gap-1 text-white">
+                          <div class="date font-bold text-xs">21:45</div>
+                          <div class="location uppercase text-xs">Tegal</div>
+                        </div>
+            
+                        <div class="flex items-center justify-center gap-2 text-white">
+                            <div>07m</div>
+                            <div>28m</div>
+                            <span class="px-2 py-1 rounded-full bg-[#628973] text-white text-xs">+1 hari</span>
+                        </div>
+                        <div class="flex gap-1 text-white">
+                            <div class="date font-bold text-xs">21:45</div>
+                            <div class="location uppercase text-xs">Jakarta</div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-between gap-2 justify-between">
+                    <div>
+                        <p class="text-[#888]">Harga Tiket</p>
+                        <h5 class="text-[#FCC46B] font-bold text-[15px]">110,000<span class="text-white font-light">/pax</span></h5>
+                    </div>
+                    <button class="bg-[#555] px-2 py-1 rounded-lg text-white">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="bg-[#343434] rounded-lg p-[20px]">
+                <h4 class="text-white">Bus Kelas AC Seat 2-2</h4>
+                <div class="flex items-center justify-between">
+                  <div class="flex gap-2">
+                    <div class="flex flex-col items-center justify-between gap-2">
+                      <img src="/assets/icon/ri_map-pin-4-line.png" alt="" />
+                      <div class="border-r border-dashed h-6 w-px"></div>
+                      <img src="/assets/icon/ri_map-pin-2-line.png" alt="" />
+                    </div>
+                    <div class="flex flex-col  justify-between">
+                        <div class="flex gap-1 text-white">
+                          <div class="date font-bold text-xs">21:45</div>
+                          <div class="location uppercase text-xs">Tegal</div>
+                        </div>
+            
+                        <div class="flex items-center justify-center gap-2 text-white">
+                            <div>07m</div>
+                            <div>28m</div>
+                            <span class="px-2 py-1 rounded-full bg-[#628973] text-white text-xs">+1 hari</span>
+                        </div>
+                        <div class="flex gap-1 text-white">
+                            <div class="date font-bold text-xs">21:45</div>
+                            <div class="location uppercase text-xs">Jakarta</div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-between gap-2 justify-between">
+                    <div>
+                        <p class="text-[#888]">Harga Tiket</p>
+                        <h5 class="text-[#FCC46B] font-bold text-[15px]">110,000<span class="text-white font-light">/pax</span></h5>
+                    </div>
+                    <button class="bg-[#555] px-2 py-1 rounded-lg text-white">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="bg-[#343434] rounded-lg p-[20px]">
+                <h4 class="text-white">Bus Kelas AC Seat 2-2</h4>
+                <div class="flex items-center justify-between">
+                  <div class="flex gap-2">
+                    <div class="flex flex-col items-center justify-between gap-2">
+                      <img src="/assets/icon/ri_map-pin-4-line.png" alt="" />
+                      <div class="border-r border-dashed h-6 w-px"></div>
+                      <img src="/assets/icon/ri_map-pin-2-line.png" alt="" />
+                    </div>
+                    <div class="flex flex-col  justify-between">
+                        <div class="flex gap-1 text-white">
+                          <div class="date font-bold text-xs">21:45</div>
+                          <div class="location uppercase text-xs">Tegal</div>
+                        </div>
+            
+                        <div class="flex items-center justify-center gap-2 text-white">
+                            <div>07m</div>
+                            <div>28m</div>
+                            <span class="px-2 py-1 rounded-full bg-[#628973] text-white text-xs">+1 hari</span>
+                        </div>
+                        <div class="flex gap-1 text-white">
+                            <div class="date font-bold text-xs">21:45</div>
+                            <div class="location uppercase text-xs">Jakarta</div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col items-between gap-2 justify-between">
+                    <div>
+                        <p class="text-[#888]">Harga Tiket</p>
+                        <h5 class="text-[#FCC46B] font-bold text-[15px]">110,000<span class="text-white font-light">/pax</span></h5>
+                    </div>
+                    <button class="bg-[#555] px-2 py-1 rounded-lg text-white">Pesan</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+  <body class="bg-[#282828]">
+    <nav class="bg-[#282828] p-[15px] fixed z-50 bottom-0 left-0 right-0">
+      <ul class="flex gap-3 items-center justify-between">
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div class="w-[30px] h-[30px] bg-[#FCC46B] rounded-full flex justify-center items-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <p class="text-[#FCC46B] text-xs font-bold">Cari Tiket</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div class="w-[30px] h-[30px]  rounded-full flex justify-center items-center">
+                <img src="/assets/icon/iconamoon_discount-thin.png" alt="">
+            </div>
+            <p class="text-[#fff] text-xs">Diskon</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div class="w-[30px] h-[30px]  rounded-full flex justify-center items-center">
+                <img src="/assets/icon/carbon_ticket.png" alt="">
+            </div>
+            <p class="text-[#fff] text-xs">Ticket Saya</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div class="w-[30px] h-[30px]  rounded-full flex justify-center items-center">
+                <img src="/assets/icon/fluent_task-list-square-20-regular.png" alt="">
+            </div>
+            <p class="text-[#fff] text-xs">Transaksi</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex flex-col gap-2 items-center">
+            <div class="w-[30px] h-[30px]  rounded-full flex justify-center items-center">
+                <img src="/assets/icon/heroicons-outline_menu-alt-3.png" alt="">
+            </div>
+            <p class="text-[#fff] text-xs">Ticket Saya</p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class="px-[20px] py-[18px]">
+      <div class="flex items-center gap-[15px]">
+        <div
+          class="w-[50px] h-[50px] rounded-full border-4 border-[#343434] bg-cover bg-center bg-no-repeat"
+          style="
+            background-image: url('https://source.unsplash.com/featured?profile');
+          "
+        ></div>
+        <div class="">
+          <p class="text-xs text-[#b0b0b1]">Selamat Sore</p>
+          <h4 class="font-bold text-[15px] text-white">Sobat Dewi Sri</h4>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="px-[20px] py-[18px] pb-20">
+        <div>
+          <form
+            action=""
+            class="bg-[#343434] px-[15px] py-[15px] rounded-[15px]"
+          >
+            <div class="flex gap-[15px] py-[15px] border-b border-[#403f3f]">
+              <label for="berangkat" class="sr-only hidden"
+                >Keberangkatan</label
+              >
+              <img src="/assets/icon/map-pin.svg" alt="" />
+              <input
+                type="text"
+                name=""
+                id="berangkat"
+                class="bg-transparent block w-full focus:outline-none"
+                placeholder="Keberangkatan"
+              />
+            </div>
+            <div class="flex gap-[15px] py-[15px] border-b border-[#403f3f]">
+              <label for="Destinasi" class="sr-only hidden">Destinasi</label>
+              <img src="/assets/icon/ri_map-pin-2-fill.svg" alt="" />
+              <input
+                type="text"
+                name=""
+                id="Destinasi"
+                class="bg-transparent block w-full focus:outline-none"
+                placeholder="Destinasi"
+              />
+            </div>
+            <div class="flex gap-[15px] py-[15px] border-b border-[#403f3f]">
+              <label for="Tberangkat" class="sr-only hidden"
+                >Tanggal Keberangkatan</label
+              >
+              <img src="/assets/icon/solar_calendar-linear.svg" alt="" />
+              <input
+                type="text"
+                name=""
+                id="Tberangkat"
+                class="bg-transparent block w-full focus:outline-none"
+                placeholder="Tanggal Keberangkatan"
+              />
+            </div>
+            <div class="flex gap-[15px] py-[15px] border-b border-[#403f3f]">
+              <label for="Tberangkat" class="sr-only hidden"
+                >Jumlah Tiket</label
+              >
+              <img src="assets/icon/ph_user.svg" alt="" />
+              <input
+                type="text"
+                name=""
+                id="Tberangkat"
+                class="bg-transparent block w-full focus:outline-none"
+                placeholder="Jumlah Tiket"
+              />
+            </div>
+            <button
+              type="button"
+              class="bg-[#9D6830] px-4 py-2 rounded-lg block w-full mt-6 text-white font-bold"
+            >
+              Cari Tiket Bus
+            </button>
+          </form>
+        </div>
+        <div class="pt-[35px]">
+          <div>
+            <h3 class="text-[#FCC46B] font-bold text-[15px]">
+              Destinasi Teramai
+            </h3>
+            <p class="text-[#b0b0b1]">
+              Berikut adalah rekomendasi kota-kota dengan kunjungan teramai
+              bulan ini versi tim Dewi Sri
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-3 mt-6">
+            <div
+              class="w-[165px] h-[165px] rounded-[20px] flex justify-center items-center bg-cover bg-center bg-no-repeat"
+              style="background-image: url('/assets/img/tegal.png')"
+            >
+              <div class="bg-gradient-tor from-[#663A0C] to-transparent"></div>
+              <p class="text-white uppercase">Tegal</p>
+            </div>
+            <div
+              class="w-[165px] h-[165px] rounded-[20px] flex justify-center items-center bg-cover bg-center bg-no-repeat"
+              style="background-image: url('/assets/img/tegal.png')"
+            >
+              <div class="bg-gradient-tor from-[#663A0C] to-transparent"></div>
+              <p class="text-white uppercase">Tegal</p>
+            </div>
+            <div
+              class="w-[165px] h-[165px] rounded-[20px] flex justify-center items-center bg-cover bg-center bg-no-repeat"
+              style="background-image: url('/assets/img/tegal.png')"
+            >
+              <div class="bg-gradient-tor from-[#663A0C] to-transparent"></div>
+              <p class="text-white uppercase">Tegal</p>
+            </div>
+            <div
+              class="w-[165px] h-[165px] rounded-[20px] flex justify-center items-center bg-cover bg-center bg-no-repeat"
+              style="background-image: url('/assets/img/tegal.png')"
+            >
+              <div class="bg-gradient-tor from-[#663A0C] to-transparent"></div>
+              <p class="text-white uppercase">Tegal</p>
+            </div>
+          </div>
+        </div>
+        <div class="pt-[35px]">
+          <div class="p-[20px] bg-[#4C657E] rounded-[20px]">
+            <div class="flex items-center justify-between mb-[10px]">
+              <h3 class="text-[15px] font-bold text-white">
+                Perlindungan Terhadap Covid
+              </h3>
+              <img
+                src="/assets/icon/icons-sheild.png"
+                class="w-[45px] h-[45px]"
+                alt=""
+              />
+            </div>
+            <p class="text-xs text-[#B0B0B1]">
+              Kami selalu berkomitmen untuk melindungi semua armada kami sebelum
+              berangkat agar terbebas dari virus Covid 19.
+            </p>
+          </div>
+        </div>
+        <div class="py-[35px] ">
+          <h3 class="text-[15px] font-bold text-[#FCC46B]">
+            Suara Sahabat Dewi Sri
+          </h3>
+          <p class="text-xs text-[#B0B0B1]">
+            Kami merangkum suara dari Sahabat Dewi Sri. Berikut pengalaman
+            mereka saat berkendara bersama kami.
+          </p>
+          <div class="flex gap-4 mt-4">
+            <img
+              src="/assets/img/user-testi.png"
+              class="rounded-full h-[30px] w-[30px]"
+              alt=""
+            />
+            <div
+              class="bg-[#D9D9D9] rounded-[20px] box-border py-[10px] px-[14px] relative"
+            >
+              <div
+                class="absolute rotate-[30deg] -left-3 top-0 w-5 h-5 border-t-[14px] border-t-transparent border-r-[25px] border-r-[#D9D9D9] border-b-[14px] border-b-transparent"
+              ></div>
+              <h5 class="font-bold text-xs text-[#282828]">Syamsul Hadi</h5>
+              <p class="text-[10px] text-[#555] mt-1">
+                Pengalaman yang sangat menarik berkendara menggunakan bersama
+                Dewi Sri
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
